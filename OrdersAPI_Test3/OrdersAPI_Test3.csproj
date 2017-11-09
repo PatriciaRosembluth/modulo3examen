@@ -74,9 +74,12 @@
   </Choose>
   <ItemGroup>
     <Compile Include="ApiLogicCategory.cs" />
+    <Compile Include="ApiLogicProduct.cs" />
     <Compile Include="ApiTestCategory.cs" />
+    <Compile Include="ApiTestProduct.cs" />
     <Compile Include="Helpers\ClientApiHelper.cs" />
     <Compile Include="Helpers\CompareCategoriesTo.cs" />
+    <Compile Include="Helpers\CompareProductsTo.cs" />
     <Compile Include="ICluster.cs" />
     <Compile Include="Model\Categories.cs">
       <DependentUpon>Model1.tt</DependentUpon>

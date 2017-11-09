@@ -1,8 +1,3 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<OrderedTest name="orderedtest1" storage="d:\proyectos\ordersapi_test3\ordersapi_test3\orderedtest1.orderedtest" id="91260950-fd51-4180-8eaa-f39eec227d47" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <TestLinks>
-    <TestLink id="d15b7127-6f93-4830-2ec3-4d193bb7cb0b" name="SetCluster" storage="bin\debug\ordersapi_test3.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-    <TestLink id="3b13191e-fc1a-0bb4-8884-8762529b0328" name="GetCategories" storage="bin\debug\ordersapi_test3.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-    <TestLink id="5c58d5ab-50b7-c1f2-450a-5f7c0b4b7a23" name="InsertNewCategory" storage="bin\debug\ordersapi_test3.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  </TestLinks>
+<OrderedTest name="orderedtest1" storage="c:\users\patty\onedrive\documentos\visual studio 2015\projects\ordersapi_test3\ordersapi_test3\orderedtest1.orderedtest" id="91260950-fd51-4180-8eaa-f39eec227d47" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
 </OrderedTest>
