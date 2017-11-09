@@ -34,5 +34,12 @@ namespace OrdersAPI_Test3
             _apiLogicProduct.ValidateNewProduct(newProductApi);
             _apiLogicProduct.DeleteProductDB(newProductApi);
         }
+
+        [TestMethod]
+        public void InsertNewProductWithoutToken()
+        {
+            var response = _apiLogicProduct.InsertNewProductWithoutTokenAPI();
+            Assert.AreEqual(response, "Unauthorized");
+        }
     }
 }

@@ -112,5 +112,24 @@ namespace OrdersAPI_Test3
             db.Products.Remove(db.Products.Find(productApi.Id));
             db.SaveChanges();
         }
+
+        public string InsertNewProductWithoutTokenAPI()
+        {
+            Products _newProduct = new Products()
+            {
+                Name = "newProduct" + DateTime.Now.Millisecond,
+                Price = 5,
+                Rank = 3,
+                Category_Id = getFirstCategoryIdFromDB()
+            };
+            Dictionary<string, string> parameters = new Dictionary<string, string>();
+            parameters.Add("Name", _newProduct.Name);
+            parameters.Add("Price", _newProduct.Price.ToString());
+            parameters.Add("Rank", _newProduct.Rank.ToString());
+            parameters.Add("Category_Id", _newProduct.Category_Id.ToString());
+
+            dynamic response = _clientApiHelper.PostAsync("api/Products", parameters, false);
+            return response;
+        }
     }
 }

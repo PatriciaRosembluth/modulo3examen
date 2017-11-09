@@ -84,7 +84,8 @@ namespace OrdersAPI_Test3.Helpers
                     }
                     else
                     {
-                        Assert.Fail("Test Failed: "+ response);
+                        //Assert.Fail("Test Failed: "+ response);
+                        return response.StatusCode.ToString();
                     }
                 }
             }

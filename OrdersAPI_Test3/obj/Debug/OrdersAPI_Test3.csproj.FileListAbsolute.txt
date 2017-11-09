@@ -34,4 +34,3 @@ C:\Users\patty\OneDrive\Documentos\Visual Studio 2015\Projects\OrdersAPI_Test3\O
 C:\Users\patty\OneDrive\Documentos\Visual Studio 2015\Projects\OrdersAPI_Test3\OrdersAPI_Test3\bin\Debug\Mono.Cecil.Pdb.dll
 C:\Users\patty\OneDrive\Documentos\Visual Studio 2015\Projects\OrdersAPI_Test3\OrdersAPI_Test3\bin\Debug\Mono.Cecil.Mdb.dll
 C:\Users\patty\OneDrive\Documentos\Visual Studio 2015\Projects\OrdersAPI_Test3\OrdersAPI_Test3\bin\Debug\Mono.Cecil.Rocks.dll
-C:\Users\patty\OneDrive\Documentos\Visual Studio 2015\Projects\OrdersAPI_Test3\OrdersAPI_Test3\obj\Debug\OrdersAPI_Test3.csprojResolveAssemblyReference.cache
