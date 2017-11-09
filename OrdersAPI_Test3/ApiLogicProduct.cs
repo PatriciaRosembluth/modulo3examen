@@ -94,7 +94,10 @@ namespace OrdersAPI_Test3
             {
                 Assert.Fail("Product was not found");
             }
-            Assert.IsTrue(productApi.Name.Equals(productDB.Name), "Description is not equal");
+            Assert.IsTrue(productApi.Name.Equals(productDB.Name), "Product name is not equal");
+            Assert.IsTrue(productApi.Price.Equals(productDB.Price), "Product price is not equal");
+            Assert.IsTrue(productApi.Rank.Equals(productDB.Rank), "Product rank is not equal");
+            Assert.IsTrue(productApi.Category_Id.Equals(productDB.Category_Id), "Product category id is not equal");
         }
 
         public void DeleteProductDB(Products productApi)

@@ -27,7 +27,7 @@ namespace OrdersAPI_Test3
         }
 
         [TestMethod]
-        public void InsertNewCategory()
+        public void InsertNewProduct()
         {
             _apiLogicProduct.GenerateToken();
             Products newProductApi = _apiLogicProduct.InsertNewProductAPI();
