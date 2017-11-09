@@ -18,6 +18,7 @@ namespace OrdersAPI_Test3
         private string _password = ConfigurationManager.AppSettings["Password"] ?? "Password1.";
         private List<Products> _productListApi;
         private List<Products> _productListDB;
+        private List<Categories> _categoryListDB;
 
         private ClientApiHelper _clientApiHelper;
         private OrdersEntities db;
@@ -68,7 +69,7 @@ namespace OrdersAPI_Test3
             { Name = "newProduct" + DateTime.Now.Millisecond,
               Price = 5,
               Rank = 3,
-              Category_Id = 2};
+              Category_Id = getFirstCategoryIdFromDB()};
             Dictionary<string, string> parameters = new Dictionary<string, string>();
             parameters.Add("Name", _newProduct.Name);
             parameters.Add("Price", _newProduct.Price.ToString());
@@ -85,6 +86,12 @@ namespace OrdersAPI_Test3
             productResult.Category_Id = data["Category_Id"];
             
             return productResult;
+        }
+
+        private int? getFirstCategoryIdFromDB()
+        {
+            _categoryListDB = db.Categories.ToList();
+            return _categoryListDB[0].Id;
         }
 
         public void ValidateNewProduct(Products productApi)
